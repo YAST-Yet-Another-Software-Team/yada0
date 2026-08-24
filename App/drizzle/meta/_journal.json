@@ -1,0 +1,104 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1784750157302,
+      "tag": "0000_init_yada_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1784750157303,
+      "tag": "0001_auth_text_ids",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1784750157304,
+      "tag": "0002_dispatch_domain_text_ids",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1784750157305,
+      "tag": "0003_kumasi_trip_coords",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1784750157306,
+      "tag": "0004_drop_admin_role",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1784750157307,
+      "tag": "0005_trip_status_picked_up",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1784750157308,
+      "tag": "0006_backfill_courier_profiles",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1784750157309,
+      "tag": "0007_trip_ratings",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1784750157310,
+      "tag": "0008_dispatch_rings",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1784750157311,
+      "tag": "0009_courier_plate",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1784750157312,
+      "tag": "0010_order_details",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1784750157313,
+      "tag": "0011_business_ratings",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1784750157314,
+      "tag": "0012_courier_profile_unique_user",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1784750157315,
+      "tag": "0013_soft_delete_users",
+      "breakpoints": true
+    }
+  ]
+}

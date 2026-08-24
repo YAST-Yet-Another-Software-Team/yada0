@@ -1,0 +1,19 @@
+node_modules
+.svelte-kit
+.wrangler
+build
+dist
+coverage
+.env
+.env.*
+.env.example
+.dev.vars
+*.log
+.DS_Store
+vite.config.ts.timestamp-*
+pnpm-lock.yaml
+yarn.lock
+*.md
+!README.md
+# Playwright
+test-results

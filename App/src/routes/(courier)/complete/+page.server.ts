@@ -1,0 +1,11 @@
+import { requireCourierTrip } from "$lib/server/courier-trip";
+import { getCourierLatestCompletedTrip } from "$lib/server/data/courier-trips";
+
+export async function load({ parent, url }) {
+  const { user } = await parent();
+  const trip = await requireCourierTrip(
+    getCourierLatestCompletedTrip(user.id, url.searchParams.get("tripId")),
+  );
+
+  return { trip };
+}
